@@ -19,7 +19,7 @@ def generate_response(prompt):
     message = completions.choices[0].text
     return message
 st.title("Master-BOT")
-st.title("Streamlit + ChatGPT")
+st.title("Stockup")
 
 # storing the chat
 
